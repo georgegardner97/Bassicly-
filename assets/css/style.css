@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 500;
+    color:olive;
+}
+
+/* header, headings and nav-bar stayling */
+
+
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+    color: olive;
+}
+
+#logo {
+    color: black;
+    float:left;
+    font-size: 200%;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+
+}
+
+/* large margin-right to keep text from  bass strings */
+
+ul {
+    margin-right: 10px;
+}
+
+/* how  do i get my nav bar to stay at the top of the screen? */
+
+#menu li  {
+    float:right;
+    list-style-type: none;
+    margin-right: 60px;
+    text-transform: lowercase;
+    margin-top: 15px;
+    font-size: 110%;
+}
+
+/* below keeping the nav bar and logo in line with one another */
+#menu, #logo  {
+    line-height: 60px;
+    padding-bottom: 30px; 
+    
+}
+
+
+#menu a:hover{
+    text-decoration: underline;
+    color: black;
+    
+}
+
+#big-bass {
+    width: 100%;
+    background: url(../images/bass-guitar-hero.jpeg) no-repeat center center;
+    height: 800px;
+    position: fixed;
+    margin-top: 60px;
+    
+}
+
+#big-bass-container {
+    margin-top: 75px;
+    width:100%;
+    height: 800px;
+    position:relative;
+    
+}
+
+/* responsive design and slogan to add  */
+
+
