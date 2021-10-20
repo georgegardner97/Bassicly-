@@ -86,6 +86,46 @@ ul {
     
 }
 
-/* responsive design and slogan to add  */
+/* reponsive design for large to medium-small sized screens at 538px and above */
 
 
+@media screen and (max-width: 538px) {
+    #menu li  {
+        
+        list-style-type: none;
+        margin-right: 3%;
+        text-transform: lowercase;
+        margin-top: 15px;
+        font-size: 100%;
+        margin-left: 5%;
+        
+       
+        #logo {
+            color: black;
+            float:left;
+            font-size: 80%;
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        ul {
+            margin-right: 3%;
+        }
+}
+
+/* reponsive design for large to medium-small sized screens at 375px (Iphone X) and above */
+
+/* dissapears and reappers again */
+
+@media screen and (max-width: 375px) {
+    #menu li  {
+        
+        list-style-type: none;
+        margin-right: 2%;
+        text-transform: lowercase;
+        margin-top: 15px;
+        font-size: 100%;
+        margin-left: 2%;
+
+    }
+}
