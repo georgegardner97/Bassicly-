@@ -160,6 +160,15 @@ ul {
     padding-bottom: 30px;
 }
 
+#about ul {
+    padding: 15px;
+    font-size: 20px;
+    list-style: none;
+    
+
+
+}
+
 
 
 
@@ -200,4 +209,14 @@ ul {
         margin-left: 1%;
 
     }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .about-section {
+        width: 100%;
+        clear: both;
+    }
+
+
 }
