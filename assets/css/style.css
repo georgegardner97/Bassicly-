@@ -108,14 +108,16 @@ ul {
 }
 
 
-}
-
 /* about section */
 
 
 #about-container {
-    height: 600px;
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-container #what-we-do {
@@ -125,30 +127,28 @@ ul {
 }
 
 #about {
-    height:600px;
+    min-height:400px;
     width: 100%;
     display:block;
+    padding-bottom: 50px;
     
    
 }
 
-.about-sections {
-    display: inline-block;
-    float: left;
+.about-section {
+    flex-basis: 25%;
     
 }
 
 
 #about-container h2 {
-    padding-bottom 15px;
+    padding-bottom: 15px;
 }
 
 #about .about-section {
     color: #fafafa;
-    background-color:#f59042 ;
-    width: 25%;
+    background-color:#f59042;
     height: 300px;
-    float: left;
     padding: 30px 0 0 10px;
     text-align: center;
     border: 2px solid white;
@@ -157,20 +157,89 @@ ul {
 }
 
 #what-we-do {
-    padding-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
 }
 
 #about ul {
     padding: 15px;
     font-size: 20px;
     list-style: none;
+}
+
+/* bass player of the month section */
+
+
+#monthly-section {
+    display: block;
+    min-height: 600px;
+    width: 100%;
     
+    
+}
+
+#monthly-container {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#monthly-section .monthly-info {
+    width: 50%;
+    min-height: 600px;
+    background-color:whitesmoke;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5%;
+ 
+  
+}
+
+#monthly-container img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: inherit;
+    object-fit:cover;
+ 
 
 
 }
 
 
+.monthly-info h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
 
+#monthly-header {
+    text-align: center;
+    padding-bottom: 35px;
+    font-size: 35px;
+}
+
+.monthly-info h3, p {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.monthly-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+    line-height: 50px;
+    padding: 0 5% 0 5%;
+
+}
+
+.monthly-info a {
+    text-decoration: underline;
+    color: black;
+}
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
@@ -185,13 +254,13 @@ ul {
         font-size: 100%;
         margin-left: 5px;
         
-       
+    }
       
         
         ul {
             margin-right: 0px;
         }
-
+    }
 
 
 /* reponsive design for large to medium-small sized screens at 375px (Iphone X) and above */
@@ -207,16 +276,22 @@ ul {
         margin-top: 15px;
         font-size: small;
         margin-left: 1%;
+        padding-right: 5%;
 
     }
 }
 
 @media screen and (max-width: 1080px) {
-
-    .about-section {
-        width: 100%;
-        clear: both;
+    #about-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
     }
-
-
+    
+    .about-section {
+        flex-basis: 100%;
+        width: 100%;
+        
+    }
 }
