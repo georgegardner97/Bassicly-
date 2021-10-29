@@ -191,7 +191,7 @@ ul {
 
 #monthly-section .monthly-info {
     width: 50%;
-    min-height: 600px;
+    min-height: 100%;
     background-color:whitesmoke;
     border: 2px solid black;
     margin: 5px;
@@ -202,7 +202,7 @@ ul {
 
 #monthly-container img {
     max-width: 100%;
-    max-height: 100%;
+    min-height: 100%;
     border-radius: inherit;
     object-fit:cover;
  
@@ -239,6 +239,28 @@ ul {
 .monthly-info a {
     text-decoration: underline;
     color: black;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: olive;
 }
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
