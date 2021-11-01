@@ -263,6 +263,22 @@ footer {
     color: olive;
 }
 
+
+/* Sign up section */
+
+.sign-up-section h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.sign-up-section p {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
 
