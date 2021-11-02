@@ -32,10 +32,12 @@ a {
 
 #logo {
     color: black;
-    float:left;
     font-size: 200%;
     margin-left: 30px;
     margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0px;
     
 
 }
@@ -44,6 +46,7 @@ a {
 
 ul {
     margin-right: 10px;
+    margin-top: -100px;
 }
 
 /* how  do i get my nav bar to stay at the top of the screen? */
@@ -160,19 +163,26 @@ ul {
     padding: 30px;
     text-align: center;
     font-size: 35px;
+  
 }
 
 #about ul {
     padding: 15px;
     font-size: 20px;
     list-style: none;
+    margin-top: 0px;
+
+    
+    
+
+    
 }
 
 /* bass player of the month section */
 
 
 #monthly-section {
-    display: block;
+    display: inline-block;
     min-height: 600px;
     width: 100%;
     
@@ -186,7 +196,9 @@ ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    
+   
+    
 }
 
 #monthly-section .monthly-info {
@@ -200,11 +212,15 @@ ul {
   
 }
 
+
+} 
+
 #monthly-container img {
     max-width: 100%;
     min-height: 100%;
     border-radius: inherit;
     object-fit:cover;
+    
  
 
 
@@ -245,6 +261,8 @@ ul {
 
 footer {
     height: 150px;
+    padding-top: 100px;
+    padding-bottom: -100px;
 }
 
 .social-networks {
@@ -279,6 +297,79 @@ footer {
     margin-top: 8px;
 }
 
+/* reponsive design for large to very large e sized screens at 1400px and above */
+
+@media screen and (max-width: 1400px) {
+
+    #monthly-section {
+        display: inline-block;
+        min-height: 600px;
+        width: 100%;
+        
+        
+    }
+    
+    #monthly-container {
+        width: 100%;
+        min-height: 600px;
+
+        display: inline-block;
+         vertical-align: top;
+    
+        
+    }
+    
+    #monthly-section .monthly-info {
+        width: 95%;
+        min-height: 100%;
+        background-color:whitesmoke;
+        border: 2px solid black;
+        margin: 5px;
+        border-radius: 5%;
+     
+      
+    }
+    
+    
+    } 
+    
+    #monthly-container img {
+        max-width: 100%;
+        min-height: 100%;
+        border-radius: inherit;
+        object-fit:cover;
+}
+
+
+/* upcoming gigs section */
+
+    #upcoming-gigs {
+        /* width: 100%;
+        height: 600px; */
+    }
+
+    #gigs-container {
+        width: 100%;
+        height: 600px;
+    }
+
+    table {
+        text-align: center;
+        width: 100%;
+        height: 600px;
+        
+    }
+
+    table, th, td {
+        border: 1px solid black
+    }
+
+    tr:hover {
+        background-color: #f59042;
+        color: white;
+
+    }
+
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
 
@@ -298,12 +389,15 @@ footer {
         ul {
             margin-right: 0px;
         }
+
+
+            
     }
 
 
 /* reponsive design for large to medium-small sized screens at 375px (Iphone X) and above */
 
-/* dissapears and reappers again */
+
 
 @media screen and (max-width: 386px) {
     #menu li  {
@@ -317,6 +411,27 @@ footer {
         padding-right: 5%;
 
     }
+
+    header #logo {
+        display: flex;
+        justify-content: center;
+        margin-left: -5px;
+    }
+
+   header ul {
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+        
+    }
+
+    #big-bass {
+        margin-top: -100px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 1080px) {
