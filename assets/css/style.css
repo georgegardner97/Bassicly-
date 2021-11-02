@@ -283,63 +283,9 @@ footer {
 }
 
 
-/* Sign up section */
 
-.sign-up-section h2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
-}
 
-.sign-up-section p {
-    font-size: 20px;
-    margin-top: 8px;
-}
 
-/* reponsive design for large to very large e sized screens at 1400px and above */
-
-@media screen and (max-width: 1400px) {
-
-    #monthly-section {
-        display: inline-block;
-        min-height: 600px;
-        width: 100%;
-        
-        
-    }
-    
-    #monthly-container {
-        width: 100%;
-        min-height: 600px;
-
-        display: inline-block;
-         vertical-align: top;
-    
-        
-    }
-    
-    #monthly-section .monthly-info {
-        width: 98%;
-        min-height: 100%;
-        background-color:whitesmoke;
-        border: 2px solid black;
-        margin: 5px;
-        border-radius: 5%;
-     
-      
-    }
-    
-    
-    } 
-    
-    #monthly-container img {
-        max-width: 100%;
-        min-height: 100%;
-        border-radius: inherit;
-        object-fit:cover;
-}
 
 
 /* upcoming gigs section */
@@ -382,6 +328,71 @@ footer {
     tr {
         font-size: large;
     }
+
+
+    /* reponsive design for large to very large e sized screens at 1400px and above */
+
+@media screen and (max-width: 1400px) {
+
+    #monthly-section {
+        display: inline-block;
+        min-height: 600px;
+        width: 100%;
+        
+        
+    }
+    
+    #monthly-container {
+        width: 100%;
+        min-height: 600px;
+
+        display: inline-block;
+         vertical-align: top;
+    
+        
+    }
+    
+    #monthly-section .monthly-info {
+        width: 98%;
+        min-height: 100%;
+        background-color:whitesmoke;
+        border: 2px solid black;
+        margin: 5px;
+        border-radius: 5%;
+     
+      
+    }
+    
+    
+    } 
+    
+    #monthly-container img {
+        max-width: 100%;
+        min-height: 100%;
+        border-radius: inherit;
+        object-fit:cover;
+}
+
+/* form styling */
+
+    form {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+
+
+}
+
+
+
+    input {
+    box-sizing: border-box;
+    border: 1px black solid;
+    margin:0;
+}
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
