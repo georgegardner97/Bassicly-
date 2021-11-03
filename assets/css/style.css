@@ -380,10 +380,15 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: ;
+    margin-top: 50px;
     
+}
 
-
-
+#form-container {
+    border: 1px black solid;
+    width: 20%;
+    margin-top: 30px;
 }
 
 
@@ -392,7 +397,21 @@ footer {
     box-sizing: border-box;
     border: 1px black solid;
     margin:0;
+    width: 150px;
+    height: 25px;
+    
 }
+
+input, label {
+    display: flex;
+    align-content: flex-end;
+    border-left: 10px;
+}
+
+
+/* shop styling */
+
+
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
