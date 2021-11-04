@@ -417,10 +417,38 @@ input, label {
 /* shop styling */
 
 
+.shop-grid {
+    margin-top: 50px;
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height: 300px;
+    
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
 
 }
 
+.shop-grid img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
+
+
+/* reponsive design for shop under 1024px */
+
+@media screen and (max-width: 1024px) {
+    .shop-grid {
+        --num-cols: 2;
+        --row-height: 200px;
+    }
+}
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
 
@@ -447,11 +475,11 @@ input, label {
     }
 
 
-/* reponsive design for large to medium-small sized screens at 375px (Iphone X) and above */
+/* reponsive design for large to medium-small sized screens at 619px and above */
 
 
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 619px) {
     #menu li  {
         
         list-style-type: none;

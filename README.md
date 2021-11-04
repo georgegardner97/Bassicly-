@@ -137,7 +137,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 
-# Credits
+<!-- # Credits
 ### Content
 
 * The font came from [Google Fonts](https://fonts.google.com/).
@@ -159,6 +159,6 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 # Acknowledgements
 The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
 
-Ewan Colquhoun 2021.
+George Gardner 2021.
 
-[Back to top](<#contents>)
+[Back to top](<#contents>) -->
