@@ -213,7 +213,7 @@ ul {
 }
 
 
-} 
+
 
 #monthly-container img {
     max-width: 100%;
@@ -263,7 +263,7 @@ ul {
 footer {
     height: 150px;
     padding-top: 100px;
-    padding-bottom: -100px;
+    
 }
 
 .social-networks {
@@ -297,11 +297,7 @@ footer {
         font-size: 35px;
     }
 
-    #upcoming-gigs {
-        /* width: 100%;
-        height: 600px; */
-    }
-
+ 
     #gigs-container {
         width: 100%;
         height: 600px;
@@ -380,48 +376,69 @@ footer {
     display: flex;
     justify-content: center;
     
-    background-color: ;
-    /* margin-top: 50px; */
-    width: 50%;
+    background: linear-gradient(white, olive );
+    
+    width: 100%;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+
 
     
 }
 
 #form-container {
-    border: 1px black solid;
+    border: 1px #999999 solid;
     width: 50%;
     margin-top: 30px;
     border-radius: 5%;
+    background-color: whitesmoke;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
 }
 
 
 
     input {
     box-sizing: border-box;
-    border: 1px black solid;
+    border: black solid 1px;
     margin:0;
     width: 150px;
     height: 25px;
+    
     
 }
 
 input, label {
     display: flex;
     align-content: flex-end;
-    border-left: 10px;
-    width: 100%;
+    
+    width: 150px;
+    margin:auto;
+    color: black;
+    
 }
+
+#form-container h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
 
 
 /* shop styling */
 
 
 .shop-grid {
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 300px;
     --gap: 16px;
     --num-cols: 4;
-    --row-height: 300px;
+    --row-height: 400px;
     
     box-sizing: border-box;
     padding: var(--gap);
@@ -436,9 +453,12 @@ input, label {
 .shop-grid img { 
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:scale-down;
 }
 
+.shop-grid p {
+    font-size: 30px;
+}
 
 
 /* reponsive design for shop under 1024px */
@@ -446,8 +466,27 @@ input, label {
 @media screen and (max-width: 1024px) {
     .shop-grid {
         --num-cols: 2;
-        --row-height: 200px;
+        --row-height: 300px;
     }
+
+    .shop-grid a {
+        padding: 50px;
+        ;
+       
+    }
+
+    .shop-grid p {
+        font-size: 20px;
+        margin-top: -15px;
+    }
+}
+
+/* reponsive design for shop under 880px */
+
+@media screen and (max-width: 880px) {
+
+
+
 }
 
 /* reponsive design for large to medium-small sized screens at 538px and above */
@@ -471,6 +510,8 @@ input, label {
         }
 
 
+  
+
             
     }
 
@@ -486,7 +527,7 @@ input, label {
         margin-right: 2px;
         text-transform: lowercase;
         margin-top: 15px;
-        font-size: small;
+        font-size: 20px;
         margin-left: 1%;
         padding-right: 5%;
 
@@ -510,7 +551,10 @@ input, label {
         margin-top: -100px;
     }
 
-
+    .shop-grid {
+        margin-top: -100px;
+        margin-bottom: 0px;
+    }
 
 }
 
@@ -527,4 +571,6 @@ input, label {
         width: 100%;
         
     }
+
+    
 }

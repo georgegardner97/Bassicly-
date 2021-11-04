@@ -28,7 +28,7 @@ Both pages have a header with a logo and navigation bar as well as footer with l
 
  * ### Colour Scheme
       The colour scheme was chosen was that of what I would consider to be autumnal colours, dark olive greens and oranges feel to me to have a natural synergy with low sounds, such as the bass.
-<img src="assets/images/color_pallette.JPG" alt="the reponsive design of bassicly shown on different sized tablets">
+<img src="assets/images/color_pallette.jpg" alt="the reponsive design of bassicly shown on different sized tablets">
 
 
 
@@ -90,7 +90,7 @@ Both pages have a header with a logo and navigation bar as well as footer with l
     * Contains social media links. To enhance the UX the links open in other tabs.
     * The social media presence will help the user with their research into Wawas Woods and will also encourage them to connect with Bassicly.
     
-    
+    <img src="assets/images/footer-snip.jpg" alt="a snapshot of the footer">
     
 )
 
@@ -100,14 +100,19 @@ Both pages have a header with a logo and navigation bar as well as footer with l
     * In the future, I would like to have an interactive shop which allows the user to purchase the good from the website.
     * This section would be updated periodically to reflect new stock.
 
+<img src="assets/images/shop-section.jpg" alt="a snapshot of the shop">
 
-* 
+
 
 ## Future Features 
 
 * A videos section with a list of both the user-base and professional videos/
    
 * A forum for bass players to discuss topics such as bands, gear, gigs and players.
+
+# Bugs
+
+* The main bugs come from the 'monthly', bugs that are still here. Whilst these bugs do not effect the functionality of the website, they do decrease the aesthetic value. The bugs are that when the width of the screen changes, the two sectrions, one for an image and one for info change size at different rates and proportions. As well as this the image does not quite reach the bottom of its container. 
 
 # Technologies Used
 * [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
@@ -117,7 +122,36 @@ Both pages have a header with a logo and navigation bar as well as footer with l
 
 # Testing
 
-Do testing right at the end
+The Bassicly site code was tested with [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The two html pages both recieved the below message:
+
+
+<img src="assets/images/validation.jpg" alt="a snapshot of the validation">
+
+for the CSS:
+
+<img src="assets/images/css_validation.jpg" alt="a snapshot of the validation">
+
+
+## Responsiveness Test
+
+* The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Moto G4 | Galaxy S5 | iPhone 5 | iPad | iPad Pro | Display <1200px | Display >1200px |
+|--------|---------|-----------|----------|------|----------|-----------------|-----------------|
+| Render | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Images | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+| Links  | pass    | pass      | pass     | pass | pass     | pass            | pass            |
+
+Note: On wide display types the contents of the site are restricted in width to 2000px. This helps the UX by not spreading the content too wide on the extra wide screens.
+
+## Browser Compatibility
+
+Wawas Woods site was tested on the following browsers with no visible issues for the user. 
+Google Chrome, Microsoft Edge, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
+
+## Lighthouse Testing:
+
+<img src="assets/images/lighthouse.jpg" alt="a snapshot of the lighthouse report">
 
 
 # Deployment
@@ -137,28 +171,24 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
 
-<!-- # Credits
+# Credits
 ### Content
 
 * The font came from [Google Fonts](https://fonts.google.com/).
-* The map is embedded from [Google Maps](https://www.google.com/maps).
-* The colour palate was compiled by [Colormind](http://colormind.io/).
+* The colour palate was compiled by [Colorcodes](https://htmlcolorcodes.com/).
 * The icons came from [Font Awesome](https://fontawesome.com/).
-* The form validation idea came from a [YouTube tutorial](https://www.youtube.com/watch?v=fNcJuPIZ2WE).
-* The code for the Safari specific styling was inspired by an example on [Stack Overflow](https://stackoverflow.com/).
-* The inspiration for the Project page sliders came from this repository on [GitHub](https://gist.github.com/zhilinskiy/4603199).
-* [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
+* The form validation idea came from a [W3 Schools lesson](https://www.w3schools.com/css/css_form.asp).
+* The inspiration for the code for the shop area come from a [YouTube](https://www.youtube.com/watch?v=Trw_9lisYVY)
+* The stucture for the README folder came from [Wawas Woods](https://github.com/EwanColquhoun/wawaswoods)
 
 
 ### Media
-* The photos all came from the developer, [Ewan Colquhoun](https://www.linkedin.com/in/ewan-colquhoun-2b3535213/).
-* The photos were compressed using [Compressor](https://compressor.io/).
-
-[Back to top](<#contents>)
+* The photos all came from [Pexels](https://www.pexels.com/) accpeting the strings image which came from [Ernie Ball](https://ernieball.co.uk/) .
+)
 
 # Acknowledgements
-The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer (e-Commerce) Diploma at the [Code Institute](https://codeinstitute.net/). As such I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), the Slack community, and all at the Code Institute for their help and support. Wawas Woods is a fictional company but it exists in everything but the business title. Currently it is more of a hobby!
+
+Bassicly was completed for Project 1 of the Code Institute, I would like to thank my Mentor, Precious Ijege as well as the slack community. 
 
 George Gardner 2021.
 
-[Back to top](<#contents>) -->
